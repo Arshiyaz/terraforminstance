@@ -1,5 +1,5 @@
 resource "aws_instance" "instancecee" {
-  ami           = "ami-0261755bbcb8c4a84"
-  instance_type = "t2.micro"
-  key_name = "pemkey"
+  ami           = "ami-08e5424edfe926b43"
+  instance_type = "t2.medium"
+  key_name = "ansible"
 }
